@@ -42,4 +42,31 @@
 
 body {
   font-family: var(--font-family);
+  background-color: var(--neutral-900);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.header__personal-best {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header__personal-best-text {
+  color: var(--neutral-400);
+  font-size: 14px;
+}
+
+.header__personal-best-wpm {
+  color: var(--neutral-0);
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
 }
